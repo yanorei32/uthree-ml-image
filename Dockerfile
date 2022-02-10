@@ -26,10 +26,10 @@ RUN set ex; \
 WORKDIR /work
 
 CMD [ \
-    "jupyter", \
-    "notebook", \
-    "--port", "8080", \
-    "--allow-root", \
-    "--ip=0.0.0.0", \
-    "--NotebookApp.token=password", \
+	"jupyter", \
+	"notebook", \
+	"--port", "8080", \
+	"--allow-root", \
+	"--ip=0.0.0.0", \
+	"--NotebookApp.token=password", \
 	"--NotebookApp.allow_origin=*" ]
