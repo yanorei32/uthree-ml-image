@@ -1,0 +1,15 @@
+version: '3.9'
+
+services:
+  init:
+    image: nvidia/cuda:11.6.0-runtime-ubuntu20.04
+    container_name: u3ml_init
+
+    volumes:
+      - type: bind
+        source: ../
+        target: /work/
+
+    command: ['/bin/bash', './init/init.sh']
+    working_dir: /work
+    network_mode: bridge
