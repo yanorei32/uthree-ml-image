@@ -23,7 +23,7 @@ RUN set ex; \
 	apt-get purge -y --auto-remove -o APT::AutoRemove::RecommendsImportant=false; \
 	rm -rf /var/lib/apt/lists/*;
 
-WORKDIR /work
+WORKDIR /root
 
 CMD [ \
 	"jupyter", \
