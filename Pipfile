@@ -17,6 +17,6 @@ Pillow-SIMD = '==9.0.0.post1'
 scikit-learn = '==1.0.2'
 sentencepiece = '==0.1.96'
 torch = '==1.11.0'
-tqdm = '==4.63.1'
+tqdm = '==4.64.0'
 
 [dev-packages]
