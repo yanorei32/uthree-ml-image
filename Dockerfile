@@ -1,4 +1,4 @@
-FROM nvidia/cuda:11.6.0-runtime-ubuntu20.04
+FROM nvidia/cuda:11.6.1-runtime-ubuntu20.04
 
 MAINTAINER yanorei32
 EXPOSE 8080
