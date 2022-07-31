@@ -12,7 +12,7 @@ ENV CC="gcc -O3 -mtune=znver1"
 RUN set ex; \
 	apt-get update; \
 	apt-get install -y --no-install-recommends \
-		python3 python3-pip zlib1g libjpeg-turbo8 libgomp1 git unzip wget curl vim; \
+		python3 python3-pip zlib1g libjpeg-turbo8 libgomp1 git unzip wget curl vim zsh; \
 	savedAptMark="$(apt-mark showmanual)"; \
 	apt-get install -y --no-install-recommends \
 		python3-dev zlib1g-dev libjpeg-dev gcc; \
@@ -21,7 +21,8 @@ RUN set ex; \
 	apt-mark auto '.*' > /dev/null; \
 	[ -z "$savedAptMark" ] || apt-mark manual $savedAptMark; \
 	apt-get purge -y --auto-remove -o APT::AutoRemove::RecommendsImportant=false; \
-	rm -rf /var/lib/apt/lists/*;
+	rm -rf /var/lib/apt/lists/*; \
+	chsh -s /bin/zsh
 
 WORKDIR /root
 
