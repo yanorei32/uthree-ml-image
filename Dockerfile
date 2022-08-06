@@ -21,8 +21,7 @@ RUN set ex; \
 	apt-mark auto '.*' > /dev/null; \
 	[ -z "$savedAptMark" ] || apt-mark manual $savedAptMark; \
 	apt-get purge -y --auto-remove -o APT::AutoRemove::RecommendsImportant=false; \
-	rm -rf /var/lib/apt/lists/*; \
-	chsh -s /bin/zsh
+	rm -rf /var/lib/apt/lists/*
 
 WORKDIR /root
 
