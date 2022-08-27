@@ -4,7 +4,7 @@ MAINTAINER yanorei32
 EXPOSE 8080
 WORKDIR /init
 
-COPY Pipfile Pipfile.lock /init
+COPY Pipfile Pipfile.lock /init/
 
 ENV LD_LIBRARY_PATH=/usr/local/cuda/lib64:$LD_LIBRARY_PATH
 ENV CC="gcc -O3 -mtune=znver1"
