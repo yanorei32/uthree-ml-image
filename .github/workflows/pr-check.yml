@@ -1,4 +1,4 @@
-name: Build Container Image
+name: PR Check
 on:
   pull_request:
     paths:
