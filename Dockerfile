@@ -9,7 +9,7 @@ COPY Pipfile Pipfile.lock /init/
 ENV LD_LIBRARY_PATH=/usr/local/cuda/lib64:$LD_LIBRARY_PATH
 ENV CC="gcc -O3 -mtune=znver1"
 
-RUN set ex; \
+RUN set -eux; \
 	apt-get update; \
 	apt-get install -y --no-install-recommends \
 		python3 python3-pip zlib1g libjpeg-turbo8 libgomp1 git unzip wget curl vim zsh; \
