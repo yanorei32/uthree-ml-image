@@ -40,5 +40,7 @@ jobs:
           context: .
           platforms: linux/amd64
           push: true
+          cache-from: type=gha
+          cache-to: type=gha,mode=max
           tags: |
             ghcr.io/yanorei32/uthree-ml-image:${{ steps.tagname.outputs.version }}
