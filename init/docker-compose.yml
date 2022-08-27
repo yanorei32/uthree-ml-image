@@ -3,7 +3,7 @@ version: '3.9'
 services:
   init:
     image: nvidia/cuda:11.7.1-runtime-ubuntu20.04
-    container_name: u3ml_init
+    container_name: uthreeml-init
 
     volumes:
       - type: bind
