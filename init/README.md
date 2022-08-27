@@ -1,6 +1,6 @@
 Run
 
 ```bash
-docker compose up && docker compose down
+docker compose run --rm init
 ```
 to create a `Pipfile.lock`
