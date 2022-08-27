@@ -1,5 +1,5 @@
 #!/bin/bash
-set ex
+set -eux
 
 apt-get update -y
 apt-get install -y --no-install-recommends python3-pip
