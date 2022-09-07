@@ -16,7 +16,7 @@ RUN set -eux; \
 	savedAptMark="$(apt-mark showmanual)"; \
 	apt-get install -y --no-install-recommends \
 		python3-dev zlib1g-dev libjpeg-dev gcc; \
-	pip3 install --no-cache-dir -r /init/requirements.txt; \
+	pip3 install --no-cache-dir -r requirements.txt; \
 	pipenv install --system; \
 	apt-mark auto '.*' > /dev/null; \
 	[ -z "$savedAptMark" ] || apt-mark manual $savedAptMark; \
