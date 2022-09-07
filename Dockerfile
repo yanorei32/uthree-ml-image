@@ -1,10 +1,10 @@
 FROM nvidia/cuda:11.7.1-runtime-ubuntu20.04
 
-MAINTAINER yanorei32
+LABEL maintainer="yanorei32"
 EXPOSE 8080
 WORKDIR /init
 
-COPY Pipfile Pipfile.lock /init/
+COPY Pipfile Pipfile.lock requirements.txt /init/
 
 ENV LD_LIBRARY_PATH=/usr/local/cuda/lib64:$LD_LIBRARY_PATH
 ENV CC="gcc -O3 -mtune=znver1"
@@ -16,7 +16,7 @@ RUN set -eux; \
 	savedAptMark="$(apt-mark showmanual)"; \
 	apt-get install -y --no-install-recommends \
 		python3-dev zlib1g-dev libjpeg-dev gcc; \
-	pip3 install pipenv; \
+	pip3 install --no-cache-dir -r requirements.txt; \
 	pipenv install --system; \
 	apt-mark auto '.*' > /dev/null; \
 	[ -z "$savedAptMark" ] || apt-mark manual $savedAptMark; \
