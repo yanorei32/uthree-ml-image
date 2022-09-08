@@ -5,6 +5,9 @@ on:
       - 'Dockerfile'
       - 'Pipfile'
       - 'Pipfile.lock'
+      - 'init.sh'
+      - 'launch.sh'
+      - '.python-version'
       - '.github/workflows/pr-check.yml'
 
 jobs:
