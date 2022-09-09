@@ -119,14 +119,14 @@ git clone https://github.com/pyenv/pyenv \
 
 	# shellcheck disable=SC2016
 	echo 'eval "$(pyenv init -)"'
-} >> ~/.pyenv-init
+} >> /etc/pyenv-init
 
-chmod +x ~/.pyenv-init
+chmod +x /etc/pyenv-init
 
 set +eux
 
-# shellcheck disable=SC1090
-. ~/.pyenv-init
+# shellcheck disable=SC1091
+. /etc/pyenv-init
 
 set -eux
 

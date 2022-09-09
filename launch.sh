@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # shellcheck disable=SC1091
-. /root/.pyenv-init
+. /etc/pyenv-init
 
 jupyter notebook \
 	--port 8080 \
