@@ -9,58 +9,58 @@ apt-get update -qq -y
 # https://packages.ubuntu.com/source/focal/[PACKAGE]
 # https://launchpad.net/ubuntu/+source/[PACKAGE]
 
-# depName=ubuntu_20_04/python3-defaults
+# depName=ubuntu_22_04/python3-defaults
 PYTHON3_VERSION="3.8.2-0ubuntu2"
 
-# depName=ubuntu_20_04/zlib
+# depName=ubuntu_22_04/zlib
 ZLIB_VERSION="1:1.2.11.dfsg-2ubuntu1.3"
 
-# depName=ubuntu_20_04/libjpeg-turbo
+# depName=ubuntu_22_04/libjpeg-turbo
 LIBJPEGTURBO_VERSION="2.0.3-0ubuntu1.20.04.1"
 
-# depName=ubuntu_20_04/gcc-10
+# depName=ubuntu_22_04/gcc-10
 GCC_VERSION="10.3.0-1ubuntu1~20.04"
 
-# depName=ubuntu_20_04/git
+# depName=ubuntu_22_04/git
 GIT_VERSION="1:2.25.1-1ubuntu3.5"
 
-# depName=ubuntu_20_04/unzip
+# depName=ubuntu_22_04/unzip
 UNZIP_VERSION="6.0-25ubuntu1"
 
-# depName=ubuntu_20_04/wget
+# depName=ubuntu_22_04/wget
 WGET_VERSION="1.20.3-1ubuntu2"
 
-# depName=ubuntu_20_04/curl
+# depName=ubuntu_22_04/curl
 CURL_VERSION="7.68.0-1ubuntu2.13"
 
-# depName=ubuntu_20_04/vim
+# depName=ubuntu_22_04/vim
 VIM_VERSION="2:8.1.2269-1ubuntu5.7"
 
-# depName=ubuntu_20_04/zsh
+# depName=ubuntu_22_04/zsh
 ZSH_VERSION="5.8-3ubuntu1.1"
 
-# depName=ubuntu_20_04/make-dfsg
+# depName=ubuntu_22_04/make-dfsg
 MAKE_VERSION="4.2.1-1.2"
 
-# depName=ubuntu_20_04/openssl
+# depName=ubuntu_22_04/openssl
 OPENSSL_VERSION="1.1.1f-1ubuntu2.16"
 
-# depName=ubuntu_20_04/bzip2
+# depName=ubuntu_22_04/bzip2
 BZIP2_VERSION="1.0.8-2"
 
-# depName=ubuntu_20_04/ncurses
+# depName=ubuntu_22_04/ncurses
 NCURSES_VERSION="6.2-0ubuntu2"
 
-# depName=ubuntu_20_04/libffi
+# depName=ubuntu_22_04/libffi
 LIBFFI_VERSION="3.3-4"
 
-# depName=ubuntu_20_04/readline
+# depName=ubuntu_22_04/readline
 READLINE_VERSION="8.0-4"
 
-# depName=ubuntu_20_04/sqlite3
+# depName=ubuntu_22_04/sqlite3
 SQLITE3_VERSION="3.31.1-4ubuntu0.3"
 
-# depName=ubuntu_20_04/lzma
+# depName=ubuntu_22_04/lzma
 LZMA_VERSION="9.22-2.1build1"
 
 apt-get install -qq -y --no-install-recommends \
