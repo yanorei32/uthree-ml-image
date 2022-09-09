@@ -40,7 +40,7 @@ VIM_VERSION="2:8.2.3995-1ubuntu2"
 ZSH_VERSION="5.8.1-1"
 
 # depName=ubuntu_22_04/make-dfsg
-MAKE_VERSION="4.2.1-1.2"
+MAKE_VERSION="4.3-4.1build1"
 
 # depName=ubuntu_22_04/openssl
 OPENSSL_VERSION="3.0.2-0ubuntu1.6"
