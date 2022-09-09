@@ -106,27 +106,27 @@ export CC='gcc-10'
 
 git clone https://github.com/pyenv/pyenv \
 	--depth=1 --branch "$PYENV_RELEASE" \
-	~/.pyenv
+	/usr/local/pyenv
 
-(cd ~/.pyenv && src/configure && make -C src -j "$(nproc)")
+(cd /usr/local/pyenv && src/configure && make -C src -j "$(nproc)")
 
 {
 	# shellcheck disable=SC2016
-	echo 'export PYENV_ROOT="/root/.pyenv"'
+	echo 'export PYENV_ROOT="/usr/local/pyenv"'
 
 	# shellcheck disable=SC2016
 	echo 'command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"'
 
 	# shellcheck disable=SC2016
 	echo 'eval "$(pyenv init -)"'
-} >> /etc/pyenv-init
+} >> /usr/local/pyenv/pyenv-init
 
-chmod +x /etc/pyenv-init
+chmod +x /usr/local/pyenv/pyenv-init
 
 set +eux
 
 # shellcheck disable=SC1091
-. /etc/pyenv-init
+. /usr/local/pyenv/pyenv-init
 
 set -eux
 
