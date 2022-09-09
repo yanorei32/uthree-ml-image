@@ -61,7 +61,7 @@ READLINE_VERSION="8.0-4"
 SQLITE3_VERSION="3.37.2-2"
 
 # depName=ubuntu_22_04/lzma
-LZMA_VERSION="9.22-2.1build1"
+LZMA_VERSION="9.22-2.2"
 
 apt-get install -qq -y --no-install-recommends \
 	"python3=$PYTHON3_VERSION" \
