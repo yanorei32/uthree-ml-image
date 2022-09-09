@@ -37,7 +37,7 @@ CURL_VERSION="7.68.0-1ubuntu2.13"
 VIM_VERSION="2:8.2.3995-1ubuntu2"
 
 # depName=ubuntu_22_04/zsh
-ZSH_VERSION="5.8-3ubuntu1.1"
+ZSH_VERSION="5.8.1-1"
 
 # depName=ubuntu_22_04/make-dfsg
 MAKE_VERSION="4.2.1-1.2"
