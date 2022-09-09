@@ -52,7 +52,7 @@ BZIP2_VERSION="1.0.8-5build1"
 NCURSES_VERSION="6.2-0ubuntu2"
 
 # depName=ubuntu_22_04/libffi
-LIBFFI_VERSION="3.3-4"
+LIBFFI_VERSION="3.4.2-4"
 
 # depName=ubuntu_22_04/readline
 READLINE_VERSION="8.0-4"
