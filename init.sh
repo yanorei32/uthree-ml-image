@@ -55,7 +55,7 @@ NCURSES_VERSION="6.2-0ubuntu2"
 LIBFFI_VERSION="3.4.2-4"
 
 # depName=ubuntu_22_04/readline
-READLINE_VERSION="8.0-4"
+READLINE_VERSION="8.1.2-1"
 
 # depName=ubuntu_22_04/sqlite3
 SQLITE3_VERSION="3.37.2-2"
