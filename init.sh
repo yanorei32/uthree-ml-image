@@ -46,7 +46,7 @@ MAKE_VERSION="4.2.1-1.2"
 OPENSSL_VERSION="1.1.1f-1ubuntu2.16"
 
 # depName=ubuntu_22_04/bzip2
-BZIP2_VERSION="1.0.8-2"
+BZIP2_VERSION="1.0.8-5build1"
 
 # depName=ubuntu_22_04/ncurses
 NCURSES_VERSION="6.2-0ubuntu2"
