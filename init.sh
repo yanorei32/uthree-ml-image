@@ -49,7 +49,7 @@ OPENSSL_VERSION="3.0.2-0ubuntu1.6"
 BZIP2_VERSION="1.0.8-5build1"
 
 # depName=ubuntu_22_04/ncurses
-NCURSES_VERSION="6.2-0ubuntu2"
+NCURSES_VERSION="6.3-2"
 
 # depName=ubuntu_22_04/libffi
 LIBFFI_VERSION="3.4.2-4"
