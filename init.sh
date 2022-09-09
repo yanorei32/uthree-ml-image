@@ -16,7 +16,7 @@ PYTHON3_VERSION="3.8.2-0ubuntu2"
 ZLIB_VERSION="1:1.2.11.dfsg-2ubuntu1.3"
 
 # depName=ubuntu_22_04/libjpeg-turbo
-LIBJPEGTURBO_VERSION="2.0.3-0ubuntu1.20.04.1"
+LIBJPEGTURBO_VERSION="2.1.2-0ubuntu1"
 
 # depName=ubuntu_22_04/gcc-10
 GCC_VERSION="10.3.0-1ubuntu1~20.04"
