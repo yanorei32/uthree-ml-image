@@ -28,7 +28,7 @@ GIT_VERSION="1:2.34.1-1ubuntu1.4"
 UNZIP_VERSION="6.0-25ubuntu1"
 
 # depName=ubuntu_22_04/wget
-WGET_VERSION="1.20.3-1ubuntu2"
+WGET_VERSION="1.21.2-2ubuntu1"
 
 # depName=ubuntu_22_04/curl
 CURL_VERSION="7.68.0-1ubuntu2.13"
