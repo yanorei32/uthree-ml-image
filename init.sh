@@ -58,7 +58,7 @@ LIBFFI_VERSION="3.3-4"
 READLINE_VERSION="8.0-4"
 
 # depName=ubuntu_22_04/sqlite3
-SQLITE3_VERSION="3.31.1-4ubuntu0.3"
+SQLITE3_VERSION="3.37.2-2"
 
 # depName=ubuntu_22_04/lzma
 LZMA_VERSION="9.22-2.1build1"
