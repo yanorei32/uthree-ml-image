@@ -34,7 +34,7 @@ WGET_VERSION="1.21.2-2ubuntu1"
 CURL_VERSION="7.68.0-1ubuntu2.13"
 
 # depName=ubuntu_22_04/vim
-VIM_VERSION="2:8.1.2269-1ubuntu5.7"
+VIM_VERSION="2:8.2.3995-1ubuntu2"
 
 # depName=ubuntu_22_04/zsh
 ZSH_VERSION="5.8-3ubuntu1.1"
