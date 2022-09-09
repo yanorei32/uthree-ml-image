@@ -31,7 +31,7 @@ UNZIP_VERSION="6.0-25ubuntu1"
 WGET_VERSION="1.20.3-1ubuntu2"
 
 # depName=ubuntu_22_04/curl
-CURL_VERSION="7.68.0-1ubuntu2.13"
+CURL_VERSION="7.81.0-1ubuntu1.4"
 
 # depName=ubuntu_22_04/vim
 VIM_VERSION="2:8.1.2269-1ubuntu5.7"
