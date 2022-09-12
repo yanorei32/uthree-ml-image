@@ -13,7 +13,7 @@ apt-get update -qq -y
 PYTHON3_VERSION="3.10.4-0ubuntu2"
 
 # depName=ubuntu_22_04/zlib
-ZLIB_VERSION="1:1.2.11.dfsg-2ubuntu9"
+ZLIB_VERSION="1:1.2.11.dfsg-2ubuntu9.1"
 
 # depName=ubuntu_22_04/libjpeg-turbo
 LIBJPEGTURBO_VERSION="2.1.2-0ubuntu1"
