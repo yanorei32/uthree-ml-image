@@ -5,8 +5,8 @@ set -eux
 apt-get update -qq -y
 
 # https://repology.org/project/[PACKAGE]/versions
-# https://packages.ubuntu.com/focal/[PACKAGE]
-# https://packages.ubuntu.com/source/focal/[PACKAGE]
+# https://packages.ubuntu.com/jammy/[PACKAGE]
+# https://packages.ubuntu.com/source/jammy/[PACKAGE]
 # https://launchpad.net/ubuntu/+source/[PACKAGE]
 
 # depName=ubuntu_22_04/python3-defaults
@@ -18,8 +18,8 @@ ZLIB_VERSION="1:1.2.11.dfsg-2ubuntu9.1"
 # depName=ubuntu_22_04/libjpeg-turbo
 LIBJPEGTURBO_VERSION="2.1.2-0ubuntu1"
 
-# depName=ubuntu_22_04/gcc-10
-GCC_VERSION="10.3.0-1ubuntu1~20.04"
+# depName=ubuntu_22_04/gcc-12
+GCC_VERSION="12-20220319-1ubuntu1"
 
 # depName=ubuntu_22_04/git
 GIT_VERSION="1:2.34.1-1ubuntu1.4"
@@ -77,7 +77,7 @@ apt-get install -qq -y --no-install-recommends \
 	"openssl=$OPENSSL_VERSION" \
 	"libbz2-1.0=$BZIP2_VERSION" \
 	"libncurses5=$NCURSES_VERSION" \
-	"libffi7=$LIBFFI_VERSION" \
+	"libffi8=$LIBFFI_VERSION" \
 	"libreadline8=$READLINE_VERSION" \
 	"libsqlite3-0=$SQLITE3_VERSION" \
 	"lzma=$LZMA_VERSION"
@@ -91,7 +91,7 @@ apt-get install -qq -y --no-install-recommends \
 	"python3-dev=$PYTHON3_VERSION" \
 	"zlib1g-dev=$ZLIB_VERSION" \
 	"libjpeg-turbo8-dev=$LIBJPEGTURBO_VERSION" \
-	"gcc-10=$GCC_VERSION" \
+	"gcc-12=$GCC_VERSION" \
 	"make=$MAKE_VERSION" \
 	"libssl-dev=$OPENSSL_VERSION" \
 	"libbz2-dev=$BZIP2_VERSION" \
@@ -102,7 +102,7 @@ apt-get install -qq -y --no-install-recommends \
 	"lzma-dev=$LZMA_VERSION"
 
 export CFLAGS='-O3 -mtune=znver1'
-export CC='gcc-10'
+export CC='gcc-12'
 
 git clone https://github.com/pyenv/pyenv \
 	--depth=1 --branch "$PYENV_RELEASE" \
