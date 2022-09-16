@@ -19,7 +19,7 @@ ZLIB_VERSION="1:1.2.11.dfsg-2ubuntu9.1"
 LIBJPEGTURBO_VERSION="2.1.2-0ubuntu1"
 
 # depName=ubuntu_22_04/gcc-12
-GCC_VERSION="12-20220319-1ubuntu1"
+GCC_VERSION="12.1.0-2ubuntu1~22.04"
 
 # depName=ubuntu_22_04/git
 GIT_VERSION="1:2.34.1-1ubuntu1.4"
