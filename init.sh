@@ -10,7 +10,7 @@ apt-get update -qq -y
 # https://launchpad.net/ubuntu/+source/[PACKAGE]
 
 # depName=ubuntu_22_04/python3-defaults
-PYTHON3_VERSION="3.10.4-0ubuntu2"
+PYTHON3_VERSION="3.10.6-1~22.04"
 
 # depName=ubuntu_22_04/zlib
 ZLIB_VERSION="1:1.2.11.dfsg-2ubuntu9.1"
