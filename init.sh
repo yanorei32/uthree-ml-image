@@ -25,7 +25,7 @@ GCC_VERSION="12.1.0-2ubuntu1~22.04"
 GIT_VERSION="1:2.34.1-1ubuntu1.5"
 
 # depName=ubuntu_22_04/unzip
-UNZIP_VERSION="6.0-26ubuntu3"
+UNZIP_VERSION="6.0-26ubuntu3.1"
 
 # depName=ubuntu_22_04/wget
 WGET_VERSION="1.21.2-2ubuntu1"
