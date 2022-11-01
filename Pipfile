@@ -9,7 +9,7 @@ python_version = '3.10'
 [packages]
 cupy-cuda115 = '==10.6.0'
 jupyter = '==1.0.0'
-matplotlib = '==3.6.0'
+matplotlib = '==3.6.1'
 mlxtend = '==0.21.0'
 numpy = '==1.23.3'
 pandas = '==1.5.0'
