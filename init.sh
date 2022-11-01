@@ -22,7 +22,7 @@ LIBJPEGTURBO_VERSION="2.1.2-0ubuntu1"
 GCC_VERSION="12.1.0-2ubuntu1~22.04"
 
 # depName=ubuntu_22_04/git
-GIT_VERSION="1:2.34.1-1ubuntu1.4"
+GIT_VERSION="1:2.34.1-1ubuntu1.5"
 
 # depName=ubuntu_22_04/unzip
 UNZIP_VERSION="6.0-26ubuntu3"
