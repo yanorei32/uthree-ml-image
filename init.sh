@@ -83,7 +83,7 @@ apt-get install -qq -y --no-install-recommends \
 	"lzma=$LZMA_VERSION"
 
 # depName=pyenv/pyenv
-PYENV_RELEASE="v2.3.7"
+PYENV_RELEASE="v2.3.8"
 
 savedAptMark="$(apt-mark showmanual)"
 
