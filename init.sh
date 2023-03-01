@@ -43,7 +43,7 @@ ZSH_VERSION="5.8.1-1"
 MAKE_VERSION="4.3-4.1build1"
 
 # depName=ubuntu_22_04/openssl
-OPENSSL_VERSION="3.0.2-0ubuntu1.7"
+OPENSSL_VERSION="3.0.2-0ubuntu1.8"
 
 # depName=ubuntu_22_04/bzip2
 BZIP2_VERSION="1.0.8-5build1"
