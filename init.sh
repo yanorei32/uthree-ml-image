@@ -66,8 +66,8 @@ READLINE_VERSION="8.1.2-1"
 # depName=ubuntu_22_04/sqlite3
 SQLITE3_VERSION="3.37.2-2ubuntu0.1"
 
-# depName=ubuntu_22_04/lzma
-LZMA_VERSION="5.2.5-2ubuntu1"
+# depName=ubuntu_22_04/xz-utils
+XZUTILS_VERSION="5.2.5-2ubuntu1"
 
 apt-get install -qq -y --no-install-recommends \
 	"python3=$PYTHON3_VERSION" \
@@ -86,7 +86,7 @@ apt-get install -qq -y --no-install-recommends \
 	"libffi8=$LIBFFI_VERSION" \
 	"libreadline8=$READLINE_VERSION" \
 	"libsqlite3-0=$SQLITE3_VERSION" \
-	"liblzma5=$LZMA_VERSION"
+	"liblzma5=$XZUTILS_VERSION"
 
 # depName=pyenv/pyenv
 PYENV_RELEASE="v2.3.15"
@@ -108,7 +108,7 @@ apt-get install -qq -y --no-install-recommends \
 	"libffi-dev=$LIBFFI_VERSION" \
 	"libreadline-dev=$READLINE_VERSION" \
 	"libsqlite3-dev=$SQLITE3_VERSION" \
-	"liblzma-dev=$LZMA_VERSION"
+	"liblzma-dev=$XZUTILS_VERSION"
 
 export CFLAGS='-O3 -mtune=znver1'
 export CC='gcc-12'
