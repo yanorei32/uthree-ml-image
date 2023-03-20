@@ -4,19 +4,22 @@ verify_ssl = true
 name = 'pypi'
 
 [requires]
-python_version = '3.10'
+python_version = '3.11'
 
 [packages]
-cupy-cuda115 = '==10.6.0'
-jupyter = '==1.0.0'
+cupy-cuda12x = '==11.6.0'
+ipywidgets = '==8.0.4'
+janome = '==0.4.2'
 matplotlib = '==3.7.1'
 mlxtend = '==0.21.0'
+notebook = '==6.5.3'
 numpy = '==1.24.2'
 pandas = '==1.5.3'
 Pillow-SIMD = '==9.0.0.post1'
-scikit-learn = '==1.2.1'
+scikit-learn = '==1.2.2'
 sentencepiece = '==0.1.97'
-torch = '==1.13.1'
+torch = '==2.0.0'
+torchaudio = '==2.0.1'
 tqdm = '==4.65.0'
 
 [dev-packages]

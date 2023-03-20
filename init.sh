@@ -21,6 +21,9 @@ LIBJPEGTURBO_VERSION="2.1.2-0ubuntu1"
 # depName=ubuntu_22_04/gcc-12
 GCC_VERSION="12.1.0-2ubuntu1~22.04"
 
+# depName=ubuntu_22_04/gnulib
+GNULIB_VERSION="20210822~d383792-1"
+
 # depName=ubuntu_22_04/git
 GIT_VERSION="1:2.34.1-1ubuntu1.8"
 
@@ -31,16 +34,19 @@ UNZIP_VERSION="6.0-26ubuntu3.1"
 WGET_VERSION="1.21.2-2ubuntu1"
 
 # depName=ubuntu_22_04/curl
-CURL_VERSION="7.81.0-1ubuntu1.8"
+CURL_VERSION="7.81.0-1ubuntu1.10"
 
 # depName=ubuntu_22_04/vim
-VIM_VERSION="2:8.2.3995-1ubuntu2.3"
+VIM_VERSION="2:8.2.3995-1ubuntu2.4"
 
 # depName=ubuntu_22_04/zsh
 ZSH_VERSION="5.8.1-1"
 
 # depName=ubuntu_22_04/make-dfsg
 MAKE_VERSION="4.3-4.1build1"
+
+# depName=ubuntu_22_04/cmake
+CMAKE_VERSION="3.22.1-1ubuntu1.22.04.1"
 
 # depName=ubuntu_22_04/openssl
 OPENSSL_VERSION="3.0.2-0ubuntu1.8"
@@ -61,7 +67,7 @@ READLINE_VERSION="8.1.2-1"
 SQLITE3_VERSION="3.37.2-2ubuntu0.1"
 
 # depName=ubuntu_22_04/lzma
-LZMA_VERSION="9.22-2.2"
+LZMA_VERSION="5.2.5-2ubuntu1"
 
 apt-get install -qq -y --no-install-recommends \
 	"python3=$PYTHON3_VERSION" \
@@ -80,10 +86,10 @@ apt-get install -qq -y --no-install-recommends \
 	"libffi8=$LIBFFI_VERSION" \
 	"libreadline8=$READLINE_VERSION" \
 	"libsqlite3-0=$SQLITE3_VERSION" \
-	"lzma=$LZMA_VERSION"
+	"liblzma5=$LZMA_VERSION"
 
 # depName=pyenv/pyenv
-PYENV_RELEASE="v2.3.14"
+PYENV_RELEASE="v2.3.15"
 
 savedAptMark="$(apt-mark showmanual)"
 
@@ -92,17 +98,22 @@ apt-get install -qq -y --no-install-recommends \
 	"zlib1g-dev=$ZLIB_VERSION" \
 	"libjpeg-turbo8-dev=$LIBJPEGTURBO_VERSION" \
 	"gcc-12=$GCC_VERSION" \
+	"g++-12=$GCC_VERSION" \
+	"gnulib=$GNULIB_VERSION" \
 	"make=$MAKE_VERSION" \
+	"cmake=$CMAKE_VERSION" \
 	"libssl-dev=$OPENSSL_VERSION" \
 	"libbz2-dev=$BZIP2_VERSION" \
 	"libncurses5-dev=$NCURSES_VERSION" \
 	"libffi-dev=$LIBFFI_VERSION" \
 	"libreadline-dev=$READLINE_VERSION" \
 	"libsqlite3-dev=$SQLITE3_VERSION" \
-	"lzma-dev=$LZMA_VERSION"
+	"liblzma-dev=$LZMA_VERSION"
 
 export CFLAGS='-O3 -mtune=znver1'
 export CC='gcc-12'
+export CXX='g++-12'
+export CXXFLAGS='-O3 -mtune=znver1'
 
 git clone https://github.com/pyenv/pyenv \
 	--depth=1 --branch "$PYENV_RELEASE" \

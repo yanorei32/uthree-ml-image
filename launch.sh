@@ -7,5 +7,5 @@ jupyter notebook \
 	--port 8080 \
 	--allow-root \
 	--ip=0.0.0.0 \
-	--NotebookApp.token=password \
-	--NotebookApp.allow_origin=*
+	--NotebookApp.token='' \
+	--no-browser
