@@ -89,7 +89,7 @@ apt-get install -qq -y --no-install-recommends \
 	"liblzma5=$XZUTILS_VERSION"
 
 # depName=pyenv/pyenv
-PYENV_RELEASE="v2.3.15"
+PYENV_RELEASE="v2.3.16"
 
 savedAptMark="$(apt-mark showmanual)"
 
