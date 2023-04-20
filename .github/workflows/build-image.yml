@@ -10,6 +10,8 @@ on:
       - 'Pipfile'
       - 'Pipfile.lock'
       - 'Dockerfile'
+      - 'init.sh'
+      - 'launch.sh'
       - '.github/workflows/build-image.yml'
 
 jobs:
