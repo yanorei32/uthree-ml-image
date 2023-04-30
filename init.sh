@@ -49,7 +49,7 @@ MAKE_VERSION="4.3-4.1build1"
 CMAKE_VERSION="3.22.1-1ubuntu1.22.04.1"
 
 # depName=ubuntu_22_04/openssl
-OPENSSL_VERSION="3.0.2-0ubuntu1.8"
+OPENSSL_VERSION="3.0.2-0ubuntu1.9"
 
 # depName=ubuntu_22_04/bzip2
 BZIP2_VERSION="1.0.8-5build1"
