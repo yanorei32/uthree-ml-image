@@ -25,7 +25,7 @@ GCC_VERSION="12.1.0-2ubuntu1~22.04"
 GNULIB_VERSION="20210822~d383792-1"
 
 # depName=ubuntu_22_04/git
-GIT_VERSION="1:2.34.1-1ubuntu1.8"
+GIT_VERSION="1:2.34.1-1ubuntu1.9"
 
 # depName=ubuntu_22_04/unzip
 UNZIP_VERSION="6.0-26ubuntu3.1"
