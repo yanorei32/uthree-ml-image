@@ -1,4 +1,4 @@
-FROM nvidia/cuda:12.1.0-runtime-ubuntu22.04@sha256:89939ce962f064194be862ce572b2000e702ec27031b07474c783e6d5759f67e
+FROM nvidia/cuda:12.1.1-runtime-ubuntu22.04@sha256:f1c4c493ca35579af2482eecac26819bf63ef1b64a9b8e6275d0cbd73546a1e1
 
 LABEL maintainer="yanorei32"
 EXPOSE 8080
