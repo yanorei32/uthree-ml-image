@@ -2,7 +2,7 @@ version: '3.9'
 
 services:
   init:
-    image: python:3.11.2
+    image: python:3.12.0
     container_name: uthreeml-init
 
     volumes:
