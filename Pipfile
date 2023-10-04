@@ -19,7 +19,7 @@ Pillow-SIMD = '==9.0.0.post1'
 scikit-learn = '==1.2.2'
 sentencepiece = '==0.1.99'
 torch = '==2.0.0'
-torchaudio = '==2.0.1'
+torchaudio = '==2.1.0'
 torchvision = '==0.15.1'
 tqdm = '==4.65.0'
 
